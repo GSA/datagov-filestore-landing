@@ -1,5 +1,7 @@
 # www.robotstxt.org/
 
-# Allow crawling of all content
+# This is a setting to block crawlers until the website resumes normal operations
+
+# Disallow crawling of all content
 User-agent: *
-Disallow:
+Disallow: /
