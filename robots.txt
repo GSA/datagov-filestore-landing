@@ -1,5 +1,7 @@
-# Hello robots! 
-# For information on crawling the data.gov data catalog, see http://data.gov/developers/harvesting
+# www.robotstxt.org/
 
+# This is a setting to block crawlers until the website resumes normal operations
+
+# Disallow crawling of all content
 User-agent: *
-Allow: /
+Disallow: /
