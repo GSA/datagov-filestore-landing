@@ -48,4 +48,4 @@ Pages are deployed manually to S3. From catalog-harvester2p, run these commands:
     $ cd datagov-filestore-landing
     $ git checkout master
     $ git pull --ff-only
-    $ aws s3 sync ./ s3://bsp-ocsit-prod-east-data-site-filestore/
+    $ aws s3 sync --exclude '.git/*' . s3://bsp-ocsit-prod-east-data-site-filestore
