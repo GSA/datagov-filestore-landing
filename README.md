@@ -22,6 +22,15 @@ assets.
 - **500.html** (catalog.data.gov)
 - **500-wp.html** (www.data.gov)
 
+_Note: these files are served from filestore.data.gov/errors, so beware when
+updating links._
+
+Tip: you can test locally with [Jekyll](https://jekyllrb.com/):
+
+    $ cd gsa/static-pages
+    $ jekyll serve
+    $ open http://localhost:4000/errors/500.html
+
 
 ## Large file hosting
 
